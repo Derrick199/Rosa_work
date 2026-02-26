@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Case Studies</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#3B82F6",
+                        accent: "#1D4ED8",
+                        dark: "#000000",
+                    },
+                    fontFamily: {
+                        sans: ["Plus Jakarta Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        'ios': "20px",
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply bg-white text-black;
+                -webkit-tap-highlight-color: transparent;
+            }
+        }
+        .ios-shadow {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        .ios-bottom-nav {
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="min-h-screen pb-32">
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100 px-6 py-5 flex items-center justify-between">
+<a class="w-10 h-10 flex items-center justify-start active:opacity-50 transition-opacity" href="Ros_2.html">
+<span class="material-symbols-outlined text-black text-2xl">arrow_back_ios</span>
+</a>
+<h1 class="text-xl font-extrabold tracking-tight">Case Studies</h1>
+<button class="w-10 h-10 flex items-center justify-end active:opacity-50 transition-opacity">
+<span class="material-symbols-outlined text-black text-2xl">search</span>
+</button>
+</header>
+<main class="px-6 py-6 space-y-8">
+<a class="block group active:scale-[0.98] transition-transform duration-200" href="project-detail.html">
+<section class="bg-primary rounded-[32px] overflow-hidden shadow-2xl shadow-blue-200">
+<div class="relative">
+<img alt="Featured Case Study" class="w-full h-64 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA290_2zgOJwZGuS3j_tFVKqsDKnoPGj5OuEJaiqsoeQMXbM_LwKYkCQVUOYeDAsuIbcLCH_Rc0bYTkq5d6PRkzc_JnTQ6Q1b2-FyGvhipKqn2TK-ZxdfgnKIf2gMIBbvdC9ky62QZBiKIMLamzZ5dr81BjD052lKZGy2Rdbg1MmLwZb-2OoQplhY5aXIPRi9Mq69oYJg_TAHIL6w2mbqxsuSONh9EGa01gAoynTIxD0FudDZV0k7H6Fha9B4YVUB6HliriHlsSOxM"/>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/30">
+<span class="text-white text-xs font-bold uppercase tracking-widest">Featured Project</span>
+</div>
+</div>
+<div class="p-8">
+<div class="flex items-center gap-2 mb-4">
+<span class="px-3 py-1 bg-white/20 rounded-lg text-white text-[10px] font-bold uppercase tracking-wider">Tech SaaS</span>
+</div>
+<h2 class="text-3xl font-extrabold text-white leading-tight mb-4 group-hover:underline decoration-white/30">Scaling SaaS platform by 200% ARR</h2>
+<p class="text-white/80 text-lg mb-8 leading-relaxed">
+                    We developed a comprehensive go-to-market strategy for a global cloud provider, focusing on high-intent lead generation.
+                </p>
+<div class="grid grid-cols-2 gap-4 pt-6 border-t border-white/20">
+<div>
+<p class="text-white/60 text-xs font-medium uppercase mb-1 tracking-tighter">Result</p>
+<p class="text-2xl font-black text-white">+200% ARR</p>
+</div>
+<div>
+<p class="text-white/60 text-xs font-medium uppercase mb-1 tracking-tighter">Timeline</p>
+<p class="text-2xl font-black text-white">6 Months</p>
+</div>
+</div>
+</div>
+</section>
+</a>
+<div class="flex gap-3 overflow-x-auto no-scrollbar py-2">
+<button class="px-6 py-2 bg-black text-white rounded-full text-sm font-bold whitespace-nowrap">All Projects</button>
+<button class="px-6 py-2 bg-gray-100 text-gray-500 rounded-full text-sm font-bold whitespace-nowrap active:bg-gray-200">E-commerce</button>
+<button class="px-6 py-2 bg-gray-100 text-gray-500 rounded-full text-sm font-bold whitespace-nowrap active:bg-gray-200">Fintech</button>
+<button class="px-6 py-2 bg-gray-100 text-gray-500 rounded-full text-sm font-bold whitespace-nowrap active:bg-gray-200">B2B SaaS</button>
+</div>
+<div class="space-y-6">
+<a class="block active:scale-[0.98] transition-transform duration-200" href="project-detail.html">
+<div class="bg-white border border-gray-100 rounded-[28px] overflow-hidden ios-shadow">
+<img alt="Case Study 1" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwWPM9rc1G7qeR95057hf6H39pe5Bd0OK-j7J-XJ3gjqYgg99pp86LOZrqRwMQAF6-TkMb_VZcRUCX4A8z_XsPcoxDwQc2pDldkmMsFlOGowN94O1R4ih8mZAr6M0qBftnCczHnCLsd7lwZHVIgyWg60XqKUdPGjVHUEfHAqm9TZXx2P3XyYTZlctQMjdhptJlrO2tyPngE8Snge3ZaEbZ1iLye8k_EQ9PTg3VHAphkZrKiBYnsNl8WbO8GsV_7PB68zsh_Mr1VzI"/>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<span class="text-[10px] font-black text-primary uppercase tracking-widest px-2 py-1 bg-blue-50 rounded">E-commerce</span>
+<div class="flex items-center gap-1 text-green-600 font-bold text-sm">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+                            150% ROAS
+                        </div>
+</div>
+<h3 class="text-xl font-extrabold mb-2">Revolutionizing Online Fashion Retail</h3>
+<p class="text-gray-500 text-sm leading-relaxed mb-6">
+                        Targeted social campaigns and influencer partnerships that drove record-breaking holiday sales growth.
+                    </p>
+<div class="w-full py-4 border-2 border-primary/10 text-primary font-bold rounded-2xl flex items-center justify-center gap-2 bg-blue-50/30">
+                        View Detailed Case
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</a>
+<a class="block active:scale-[0.98] transition-transform duration-200" href="project-detail.html">
+<div class="bg-white border border-gray-100 rounded-[28px] overflow-hidden ios-shadow">
+<img alt="Case Study 2" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDacv3Oqs4WzaMDCGqZ7wMkzoX4C2p2GcfuxPLeSRNw1PiLSCty8w3FoCvvB7qIsTF6RM-drcWnk15cmuDgEFBrOkxIRMEujOw06z90wn5hYhcl39PyRVlsQwkb8gaIEKWsgoRgv6aXG6ihO365cF-0d3g3GN19qLUmsLrR1V3GJlmBoCxFSEtGmqlZIG2a-jFYwyvKi8Mfu0FRxE9n5hzNWgUcFbWF5eUDXtILHYL3ZeowtroPEshQZaGwlH5lBacnjZ7oGXyWDHQ"/>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<span class="text-[10px] font-black text-primary uppercase tracking-widest px-2 py-1 bg-blue-50 rounded">Financial Services</span>
+<div class="flex items-center gap-1 text-green-600 font-bold text-sm">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+                            45k New Users
+                        </div>
+</div>
+<h3 class="text-xl font-extrabold mb-2">Modernizing Digital Banking Acquisition</h3>
+<p class="text-gray-500 text-sm leading-relaxed mb-6">
+                        Implementation of a multi-channel performance marketing strategy for a neobank startup.
+                    </p>
+<div class="w-full py-4 border-2 border-primary/10 text-primary font-bold rounded-2xl flex items-center justify-center gap-2 bg-blue-50/30">
+                        View Detailed Case
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</a>
+<a class="block active:scale-[0.98] transition-transform duration-200" href="project-detail.html">
+<div class="bg-white border border-gray-100 rounded-[28px] overflow-hidden ios-shadow">
+<img alt="Case Study 3" class="w-full h-56 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRcb9wB8n9F1SnXFO-XLKglSyU9Xb5MoKRBX3RJ2b0SHng-2fL1YGboVWpf7p64r3JrGfw5HxCzYl6dpFlSpHrgEstR6RF9psaiZG1T4uwd_Cjy2tkVhFpHuFJBd1Bnn_IyQ8EQeyCZp-JFX08vyf-mxzoJF2ACE1VbDa_Yrs73NV10seRePblBofMeqw2nUO4o2re4m1jVZqFC09lUMYBLAWFB6XBApeYNn9fi3S23jYYydemnGtzylYmW-wqFCd_slrAQErLG7M"/>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<span class="text-[10px] font-black text-primary uppercase tracking-widest px-2 py-1 bg-blue-50 rounded">Real Estate</span>
+<div class="flex items-center gap-1 text-green-600 font-bold text-sm">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+                            $12M Pipeline
+                        </div>
+</div>
+<h3 class="text-xl font-extrabold mb-2">Omnichannel Luxury Market Strategy</h3>
+<p class="text-gray-500 text-sm leading-relaxed mb-6">
+                        How we bridged the gap between offline luxury experiences and high-end digital lead acquisition.
+                    </p>
+<div class="w-full py-4 border-2 border-primary/10 text-primary font-bold rounded-2xl flex items-center justify-center gap-2 bg-blue-50/30">
+                        View Detailed Case
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+</main>
+<nav class="fixed bottom-0 left-0 right-0 bg-black text-white ios-bottom-nav z-50">
+<div class="flex justify-around items-center h-20 px-6">
+<a class="flex flex-col items-center gap-1 opacity-50 active:opacity-100 transition-opacity" href="Ros_2.html">
+<span class="material-symbols-outlined text-primary">grid_view</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 opacity-50 active:opacity-100 transition-opacity" href="detailed_mar.html">
+<span class="material-symbols-outlined text-primary">layers</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Services</span>
+</a>
+<div class="flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-primary fill-[1]">auto_awesome_motion</span>
+<span class="text-[10px] font-bold text-primary uppercase tracking-tighter">Studies</span>
+</div>
+<button class="flex flex-col items-center gap-1 opacity-50">
+<span class="material-symbols-outlined text-primary">chat_bubble</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Contact</span>
+</button>
+</div>
+</nav>
+
+</body></html>
