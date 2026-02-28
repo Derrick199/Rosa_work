@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://cdn.tailwindcss.com https://fonts.googleapis.com https://fonts.gstatic.com https://lh3.googleusercontent.com https://www.transparenttextures.com; script-src 'self' https://cdn.tailwindcss.com 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://lh3.googleusercontent.com https://www.transparenttextures.com data:; font-src https://fonts.gstatic.com; connect-src 'none';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title> Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#3B82F6",
+              "background-light": "#F8FAFC",
+              "background-dark": "#0B0E14",
+              accent: "#8B5CF6",
+            },
+            fontFamily: {
+              display: ["Plus Jakarta Sans", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "16px",
+            },
+          },
+        },
+      };
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.2), transparent 60%),
+                        linear-gradient(180deg, #0B0E14 0%, #171C26 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .dark .glass-card {
+            background: rgba(23, 28, 38, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .ios-bottom-nav {
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 py-4 flex justify-between items-center border-b border-slate-200 dark:border-white/10">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center shadow-lg shadow-primary/20">
+<span class="text-white font-black text-xl leading-none">RC</span>
+</div>
+<span class="font-bold text-lg tracking-tight">ROSAVO PR COMPANY</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined block">notifications</span>
+</button>
+<button class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined block">menu</span>
+</button>
+</div>
+</header>
+<main class="pb-24">
+<section class="relative px-6 pt-8 pb-12 overflow-hidden">
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-primary/20 blur-[100px] rounded-full"></div>
+<div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-accent/20 blur-[100px] rounded-full"></div>
+<div class="relative z-10">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-4 border border-primary/20">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                    Innovation in every campaign
+                </span>
+<h1 class="text-4xl font-extrabold leading-[1.1] mb-4 bg-clip-text text-transparent bg-gradient-to-br from-slate-900 via-slate-700 to-slate-900 dark:from-white dark:via-slate-200 dark:to-slate-400">
+                    Welcome to our Marketing <span class="text-primary">Solutions</span>
+</h1>
+<p class="text-slate-500 dark:text-slate-400 text-lg mb-8 leading-relaxed max-w-[90%]">
+                    Driving success through innovation in every campaign we create for your growth.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="bg-primary hover:bg-blue-600 text-white px-8 py-4 rounded-2xl font-bold shadow-xl shadow-primary/25 transition-all active:scale-95 flex items-center justify-center gap-2" href="detailed_mar.html">
+                        Get Started
+                        <span class="material-symbols-outlined text-sm">arrow_forward_ios</span>
+</a>
+</div>
+</div>
+<div class="mt-12 relative">
+<div class="absolute inset-0 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent z-10 h-24 bottom-0"></div>
+<img alt="Marketing Dashboard" class="w-full h-56 object-cover rounded-3xl shadow-2xl ring-1 ring-white/10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA290_2zgOJwZGuS3j_tFVKqsDKnoPGj5OuEJaiqsoeQMXbM_LwKYkCQVUOYeDAsuIbcLCH_Rc0bYTkq5d6PRkzc_JnTQ6Q1b2-FyGvhipKqn2TK-ZxdfgnKIf2gMIBbvdC9ky62QZBiKIMLamzZ5dr81BjD052lKZGy2Rdbg1MmLwZb-2OoQplhY5aXIPRi9Mq69oYJg_TAHIL6w2mbqxsuSONh9EGa01gAoynTIxD0FudDZV0k7H6Fha9B4YVUB6HliriHlsSOxM"/>
+<div class="absolute -bottom-4 -right-4 bg-accent p-4 rounded-2xl shadow-xl">
+<span class="material-symbols-outlined text-white text-3xl">insights</span>
+</div>
+</div>
+</section>
+<section class="px-6 py-8">
+<div class="flex justify-between items-end mb-8">
+<div>
+<h2 class="text-2xl font-extrabold mb-1">Our Services</h2>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Tailored strategies for your business</p>
+</div>
+<a class="text-primary text-sm font-bold" href="detailed_mar.html">View All</a>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<a class="glass-card p-6 rounded-[24px] flex flex-col gap-4 active:scale-95 transition-transform" href="detailed_mar.html">
+<div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">campaign</span>
+</div>
+<div>
+<h3 class="font-bold text-base mb-1">Public Relations</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400">Targeted growth campaigns</p>
+</div>
+</a>
+<a class="glass-card p-6 rounded-[24px] flex flex-col gap-4 active:scale-95 transition-transform" href="detailed_mar.html">
+<div class="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-accent">monitoring</span>
+</div>
+<div>
+<h3 class="font-bold text-base mb-1">Digital Relations</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400">Data-driven insights</p>
+</div>
+</a>
+<a class="glass-card p-6 rounded-[24px] flex flex-col gap-4 active:scale-95 transition-transform" href="detailed_mar.html">
+<div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-emerald-500">share</span>
+</div>
+<div>
+<h3 class="font-bold text-base mb-1">Media Relations</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400">Engage your audience</p>
+</div>
+</a>
+<a class="glass-card p-6 rounded-[24px] flex flex-col gap-4 active:scale-95 transition-transform" href="detailed_mar.html">
+<div class="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-amber-500">brush</span>
+</div>
+<div>
+<h3 class="font-bold text-base mb-1">Creative</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400">Stunning visual designs</p>
+</div>
+</a>
+</div>
+</section>
+<!--
+<section class="py-8 bg-gradient-to-r from-primary/5 via-accent/5 to-primary/5 dark:from-primary/10 dark:via-accent/10 dark:to-primary/10 mt-4 overflow-hidden">
+<div class="px-6 mb-6">
+<a class="flex items-center justify-between group" href="case_studies.html">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent">auto_awesome</span>
+<h2 class="text-2xl font-extrabold uppercase tracking-tight">Case Studies</h2>
+</div>
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">arrow_forward</span>
+</a>
+<p class="text-slate-500 dark:text-slate-400 text-sm max-w-[80%] mt-2">Discover insights into our most successful campaigns.</p>
+</div>
+<div class="flex gap-6 overflow-x-auto px-6 pb-4 snap-x snap-mandatory no-scrollbar">
+<div class="flex-none w-[85%] snap-center">
+<a class="block glass-card rounded-[32px] overflow-hidden group active:scale-[0.98] transition-transform" href="case_studies.html">
+<img alt="Tech Case Study" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwWPM9rc1G7qeR95057hf6H39pe5Bd0OK-j7J-XJ3gjqYgg99pp86LOZrqRwMQAF6-TkMb_VZcRUCX4A8z_XsPcoxDwQc2pDldkmMsFlOGowN94O1R4ih8mZAr6M0qBftnCczHnCLsd7lwZHVIgyWg60XqKUdPGjVHUEfHAqm9TZXx2P3XyYTZlctQMjdhptJlrO2tyPngE8Snge3ZaEbZ1iLye8k_EQ9PTg3VHAphkZrKiBYnsNl8WbO8GsV_7PB68zsh_Mr1VzI"/>
+<div class="p-6">
+<span class="text-[10px] font-bold text-accent uppercase tracking-widest">Tech Industry</span>
+<h4 class="text-lg font-bold mt-1 mb-2">Scaling SaaS platform by 200% ARR</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">How we implemented a full-funnel strategy for a leading cloud provider.</p>
+</div>
+</a>
+</div>
+<div class="flex-none w-[85%] snap-center">
+<a class="block glass-card rounded-[32px] overflow-hidden group active:scale-[0.98] transition-transform" href="case_studies.html">
+<img alt="E-commerce Case Study" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDacv3Oqs4WzaMDCGqZ7wMkzoX4C2p2GcfuxPLeSRNw1PiLSCty8w3FoCvvB7qIsTF6RM-drcWnk15cmuDgEFBrOkxIRMEujOw06z90wn5hYhcl39PyRVlsQwkb8gaIEKWsgoRgv6aXG6ihO365cF-0d3g3GN19qLUmsLrR1V3GJlmBoCxFSEtGmqlZIG2a-jFYwyvKi8Mfu0FRxE9n5hzNWgUcFbWF5eUDXtILHYL3ZeowtroPEshQZaGwlH5lBacnjZ7oGXyWDHQ"/>
+<div class="p-6">
+<span class="text-[10px] font-bold text-primary uppercase tracking-widest">E-commerce</span>
+<h4 class="text-lg font-bold mt-1 mb-2">Revolutionizing online fashion retail</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">Targeted social campaigns that drove record-breaking holiday sales.</p>
+</div>
+</a>
+</div>
+</div>
+</section> -->
+<section class="px-6 py-12">
+<h2 class="text-2xl font-extrabold mb-2">Meet Our Team</h2>
+<p class="text-slate-500 dark:text-slate-400 text-sm mb-8">Our experts bring a wealth of experience and creativity.</p>
+<div class="bg-primary/5 dark:bg-white/5 rounded-[32px] p-8 text-center relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+<div class="relative z-10">
+<div class="flex -space-x-4 justify-center mb-6">
+<img alt="Team member" class="w-16 h-16 rounded-full border-4 border-background-light dark:border-background-dark object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE_MrKLIO4nPmifWivQqPABgeqR2J68eP3cQJRmv2hb1UGoL2KOTAfyCDHBORgYhkxkpp4xG2qMWxkc8jrDMOr4qJ_TDkKyN0aCtI-Ew4v4vEpAvmFjxjzpJQ9KSBnkrizx3QhTsbJ5oahnAJ0SfBLfmwNvvyWNpDuHoLhuf3P82knRrXjAHgis02SVjHGny9A9H9F6Kw8_jAPZJUeFBYGvcAN8oinC6qtEkjwDnfiqloWc6bo1N_3NqbJc3WdOmwzd5LzNaqLsUw"/>
+<img alt="Team member" class="w-16 h-16 rounded-full border-4 border-background-light dark:border-background-dark object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRcb9wB8n9F1SnXFO-XLKglSyU9Xb5MoKRBX3RJ2b0SHng-2fL1YGboVWpf7p64r3JrGfw5HxCzYl6dpFlSpHrgEstR6RF9psaiZG1T4uwd_Cjy2tkVhFpHuFJBd1Bnn_IyQ8EQeyCZp-JFX08vyf-mxzoJF2ACE1VbDa_Yrs73NV10seRePblBofMeqw2nUO4o2re4m1jVZqFC09lUMYBLAWFB6XBApeYNn9fi3S23jYYydemnGtzylYmW-wqFCd_slrAQErLG7M"/>
+<img alt="Team member" class="w-16 h-16 rounded-full border-4 border-background-light dark:border-background-dark object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMejJmhfPSbdOeUmvbBDA1FF25oeXYcHzwp2vKCXRjA1Ci7-iNL9pUQGWQnFQwJuZTMvcr5xewOaAcZn8KINeo_KbrrpGY0tbaCn75E01hMFR3pWYgejyCj6qpXeMrQ91UVrHk2gSxRdOk6jDox5wYI7U5J8EdDa6sv7W_2sFB_jzNT0t1iVX0qYMnXNYFDNuVOZ8rK7fPcu7RdgpeLPDBgVht14BIexZaLQwvgni52B28lA2gZQFSMjqKTCcRVZRURx_8hr_tzcw"/>
+<div class="w-16 h-16 rounded-full border-4 border-background-light dark:border-background-dark bg-primary flex items-center justify-center text-white font-bold">
+                                                    </div>
+</div>
+<p class="font-medium text-slate-700 dark:text-slate-300 italic mb-4">"We are dedicated to your success and thrive in competitive environments."</p>
+<a href="Team.html"><button class="text-primary font-bold flex items-center gap-2 mx-auto">
+                        Learn about our culture
+                        <span class="material-symbols-outlined">arrow_right_alt</span>
+</button></a>
+</div>
+</div>
+</section> 
+<section class="px-6 pb-12">
+<div class="glass-card rounded-[32px] p-8 overflow-hidden relative">
+<div class="absolute top-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-6xl">chat_bubble</span>
+</div>
+<h2 class="text-2xl font-extrabold mb-6">Get in Touch</h2>
+<div class="space-y-6">
+<a class="flex items-center gap-4 group" href="contacts.html">
+<div class="w-12 h-12 bg-green-500 rounded-2xl flex items-center justify-center text-white shadow-lg shadow-green-500/20 group-active:scale-95 transition-transform">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 dark:text-slate-400">Phone Support</p>
+<p class="font-bold">+254 740 100238</p>
+</div>
+</a>
+<a class="flex items-center gap-4 group" href="#">
+<div class="w-12 h-12 bg-blue-500 rounded-2xl flex items-center justify-center text-white shadow-lg shadow-blue-500/20 group-active:scale-95 transition-transform">
+<span class="material-symbols-outlined">language</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 dark:text-slate-400">Visit Website</p>
+<p class="font-bold">www.rosavopr.com</p>
+</div>
+</a>
+<a class="flex items-center gap-4 group" href="#">
+<div class="w-12 h-12 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-2xl flex items-center justify-center text-white shadow-lg group-active:scale-95 transition-transform">
+<span class="material-symbols-outlined">photo_camera</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 dark:text-slate-400">Follow Instagram</p>
+<p class="font-bold">@rosavo_agency</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+</main>
+<nav class="fixed bottom-0 left-0 right-0 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-xl border-t border-slate-200 dark:border-white/5 ios-bottom-nav z-50">
+<div class="flex justify-around items-center h-16 px-4">
+<a class="flex flex-col items-center gap-1 text-primary" href="Ros_2.html">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="detailed_mar.html">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="text-[10px] font-medium">Services</span>
+</a>
+<div class="relative -top-1">
+<button class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white shadow-xl shadow-primary/40 ring-4 ring-background-light dark:ring-background-dark active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+</div> 
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="Team.html">
+<span class="material-symbols-outlined">collections</span>
+<span class="text-[10px] font-medium">Team</span>
+</a> 
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="contacts.html">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-medium">Contact</span>
+</a>
+</div>
+</nav>
+<div class="fixed top-0 left-0 w-full h-1 z-[60]">
+<div class="h-full bg-primary w-0 transition-all duration-100" id="scroll-progress"></div>
+</div>
+<script>
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("scroll-progress").style.width = scrolled + "%";
+        };
+    </script>
+
+</body></html>
